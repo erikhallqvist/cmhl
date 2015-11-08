@@ -1,0 +1,10 @@
+{
+  "name": "erikhallqvist/cmhl",
+  "require": {
+     "sparkfun/sparklib": "1.1.13",
+     "symfony/css-selector": "2.6.1",
+     "tijsverkoyen/css-to-inline-styles": "1.5.2"
+  }
+}
+
+
