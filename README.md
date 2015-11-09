@@ -5,7 +5,7 @@ This is the main code base for CMHL - a simulation hockey league currently using
 To make CMHL work, you will need    
 
   * nginx (apache is likely fine)  
-  * php 5.4+  
+  * php 5.5.17 (SparkLib dependency)  
   * postgresql (mysql will _probably_ work too)  
   * composer
   * SparkFun's open source library **[SparkLib](https://github.com/sparkfun/SparkLib)**, installed using Composer  
