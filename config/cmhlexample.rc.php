@@ -20,7 +20,7 @@
       'CMHL'                => 'classes/CMHL.php',
       'CMHLRouteMap'        => 'classes/CMHLRouteMap.php'
   ];
-  \SparkLib\Autoloader::$searchPaths = array(
-    'CMHL' => 'classes/CMHL/',          // Main CMHL Application controller
-  );
+  \SparkLib\Autoloader::$searchPaths = [
+      'CMHL' => 'classes/CMHL/', // CMHL controllers live here
+  ];
 
