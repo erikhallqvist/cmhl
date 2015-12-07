@@ -26,23 +26,23 @@
               <li><a href="#">UFA</a></li>
             </ul>
           </li>
-          <li><a href="#">Injuries/Suspensions</a></li>
+          <li><a href="<?=DIR_SIM_OUTPUT . 'S12/CMHLS12-InjurySuspension.html' ?>">Injuries/Suspensions</a></li>
         </ul>
       </li>
       <li><a href="#">Results</a>
         <ul>
           <li><a href="#">CMHL</a>
             <ul>
-              <li><a href="#">Last Games</a></li>
-              <li><a href="#">Schedule</a></li>
-              <li><a href="#">Standings</a></li>
+              <li><a href="<?=DIR_SIM_OUTPUT . 'S12/CMHLS12-TodayGames.html' ?>">Next Games</a></li>
+              <li><a href="<?=DIR_SIM_OUTPUT . 'S12/CMHLS12-Schedule.html' ?>">Schedule</a></li>
+              <li><a href="<?=DIR_SIM_OUTPUT . 'S12/CMHLS12-Standing.html' ?>">Standings</a></li>
             </ul>
           </li>
           <li><a href="#">ICHF</a>
             <ul>
-              <li><a href="#">Last Games</a></li>
-              <li><a href="#">Schedule</a></li>
-              <li><a href="#">Standings</a></li>
+              <li><a href="<?=DIR_SIM_OUTPUT . 'S12/CMHLS12-TodayGames.html' ?>">Next Games</a></li>
+              <li><a href="<?=DIR_SIM_OUTPUT . 'S12/CMHLS12-FarmTeamSchedule.html' ?>">Schedule</a></li>
+              <li><a href="<?=DIR_SIM_OUTPUT . 'S12/CMHLS12-FarmStanding.html' ?>">Standings</a></li>
             </ul>
           </li>
         </ul>
