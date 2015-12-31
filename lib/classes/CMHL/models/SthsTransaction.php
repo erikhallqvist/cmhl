@@ -51,14 +51,15 @@ class SthsTransaction {
       $dbh = \SparkLib\DB::pdo();
       if ($type != SthsTransaction::ALL)
       {
-        $sth = $dbh->prepare("SELECT * from transactions WHERE transaction_type = :type LIMIT :limit");
+        $sth = $dbh->prepare("SELECT * from transactions WHERE transaction_type = :type
+                              ORDER BY datetime DESC LIMIT :limit");
         $sth->execute([':type'    => $type,
                        ':limit'   => $limit
                      ]);
       }
       else
       {
-        $sth = $dbh->prepare("SELECT * from transactions LIMIT :limit");
+        $sth = $dbh->prepare("SELECT * from transactions ORDER BY datetime DESC LIMIT :limit");
         $sth->execute([':limit' => $limit]);
       }
     } catch (PDOException $e) {
